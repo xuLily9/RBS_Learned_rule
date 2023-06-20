@@ -1,0 +1,84 @@
+if education > 0 and married <= 0 then no
+if loanamount > 0.56 and self_employed <= 0 and credit_history <= 0 then no
+if loanamount > 0.56 and credit_history <= 0 then no
+if self_employed <= 0 and married <= 0 and dependents <= 0.67 and loanamount > 0.2 and credit_history <= 0 then no
+if self_employed <= 0 and loanamount > 0.56 and married > 0 and credit_history <= 0 and dependents <= 0.33 then no
+if dependents <= 0.33 and loanamount > 0.56 and married > 0 and credit_history <= 0 then no
+if dependents <= 0.33 and education > 0 and loanamount > 0.34 and married <= 0 then no
+if coapplicantincome <= 0.03 and dependents <= 0 and self_employed <= 0 and credit_history <= 0 then no
+if dependents <= 0.33 and loanamount > 0.34 and credit_history <= 0 then no
+if dependents <= 0.33 and education <= 0 and married > 0 and credit_history <= 0 then no
+if dependents <= 0.33 and education <= 0 and loanamount > 0.56 and married > 0 then no
+if self_employed <= 0 and education > 0 and married <= 0 and dependents <= 0.67 and credit_history <= 0 then no
+if self_employed <= 0 and dependents <= 0.67 and credit_history <= 0 then no
+if loanamount > 0.2 and married <= 0 then no
+if education <= 0 and credit_history <= 0 then no
+if loanamount > 0.56 and dependents <= 0 and self_employed <= 0 and education > 0 then no
+if self_employed <= 0 and education > 0 and dependents <= 0.67 and loanamount > 0.56 and credit_history <= 0 then no
+if self_employed <= 0 and married > 0 and dependents <= 0.67 and credit_history <= 0 then no
+if dependents <= 0 and self_employed <= 0 and credit_history <= 0 then no
+if dependents <= 0.33 and education > 0 and loanamount > 0.34 and credit_history <= 0 then no
+if dependents <= 0.33 and loanamount > 0.34 and married <= 0 and credit_history <= 0 then no
+if self_employed <= 0 and married <= 0 and credit_history <= 0 then no
+if self_employed <= 0 and education > 0 and credit_history <= 0 then no
+if dependents <= 0.33 and loanamount > 0.34 and married > 0 then no
+if married <= 0 and credit_history <= 0 then no
+if education > 0 and credit_history <= 0 then no
+if dependents <= 0 and self_employed <= 0 and education > 0 and married > 0 then no
+if dependents <= 0 and credit_history <= 0 then no
+if dependents <= 0.33 and education > 0 and loanamount > 0.34 then no
+if dependents <= 0 and self_employed <= 0 and education > 0 and married <= 0 then no
+if dependents <= 0 and self_employed <= 0 and education > 0 and credit_history <= 0 then no
+if loanamount > 0.56 and dependents <= 0 and self_employed <= 0 and credit_history <= 0 then no
+if loanamount > 0.56 and self_employed <= 0 and education > 0 and credit_history <= 0 then no
+if loanamount > 0.56 and education > 0 and credit_history <= 0 then no
+if loanamount > 0.56 and married <= 0 and credit_history <= 0 then no
+if dependents <= 0 and education > 0 and married > 0 and credit_history <= 0 then no
+if dependents <= 0.33 and loanamount > 0.34 and married > 0 and credit_history <= 0 then no
+if education <= 0 and married <= 0 and credit_history <= 0 then no
+if self_employed <= 0 and married <= 0 and dependents <= 0.67 and credit_history <= 0 then no
+if self_employed <= 0 and education > 0 and dependents <= 0.67 and credit_history <= 0 then no
+if self_employed <= 0 and dependents <= 0.67 and loanamount > 0.56 and married > 0 and credit_history <= 0 then no
+if dependents <= 0 and education <= 0 and self_employed <= 0 and credit_history <= 0 then no
+if loanamount > 0.2 and self_employed <= 0 and married <= 0 and credit_history <= 0 then no
+if loanamount > 0.56 and self_employed <= 0 and dependents <= 0.67 and credit_history <= 0 then no
+if loanamount > 0.56 and education <= 0 and credit_history <= 0 then no
+if loanamount > 0.56 and education > 0 and married <= 0 then no
+if self_employed <= 0 and education > 0 and married <= 0 and credit_history <= 0 then no
+if self_employed <= 0 and credit_history <= 0 then no
+if credit_history <= 0 then no
+if education > 0 and married <= 0 and credit_history <= 0 then no
+if dependents <= 0.33 and self_employed <= 0 and married > 0 and credit_history <= 0 then no
+if dependents <= 0 and self_employed <= 0 and married <= 0 and credit_history <= 0 then no
+if dependents <= 0 and self_employed <= 0 and loanamount > 0.18 and credit_history <= 0 then no
+if dependents <= 0.33 and married > 0 and credit_history <= 0 then no
+if dependents <= 0.33 and loanamount > 0.34 and education > 0 and married > 0 then no
+if dependents <= 0.33 and self_employed <= 0 and loanamount > 0.56 and married > 0 then no
+if education <= 0 and self_employed > 0 then yes
+if credit_history > 0 and education <= 0 and married > 0 and loanamount <= 0.56 then yes
+if credit_history > 0 and self_employed > 0 and married > 0 and loanamount <= 0.56 then yes
+if credit_history > 0 and dependents > 0 and education <= 0 then yes
+if dependents > 0.33 and credit_history > 0 and education <= 0 then yes
+if credit_history > 0 and dependents > 0 and self_employed > 0 then yes
+if coapplicantincome > 0.05 and credit_history > 0 and married <= 0 and loanamount <= 0.13 then yes
+if dependents > 0 and applicantincome > 0.04 and education <= 0 and married <= 0 and credit_history > 0 then yes
+if dependents > 0 and applicantincome > 0.04 and self_employed > 0 and married <= 0 and credit_history > 0 then yes
+if dependents > 0.33 and education <= 0 and loanamount <= 0.56 and married > 0 and credit_history > 0 then yes
+if dependents > 0 and applicantincome > 0.04 and education <= 0 and self_employed > 0 and married <= 0 then yes
+if credit_history > 0 and education <= 0 then yes
+if credit_history > 0 and self_employed > 0 then yes
+if education > 0 and loanamount <= 0.56 and married > 0 and credit_history > 0 and coapplicantincome > 0.03 then yes
+if credit_history > 0 and dependents > 0 and married > 0 and loanamount <= 0.56 then yes
+if dependents > 0 and education <= 0 and married <= 0 and applicantincome > 0.04 then yes
+if dependents > 0.33 and credit_history > 0 and married > 0 and loanamount <= 0.56 then yes
+if dependents > 0 and self_employed > 0 and married <= 0 and applicantincome > 0.04 then yes
+if dependents > 0.33 and education <= 0 then yes
+if self_employed > 0 and married > 0 then yes
+if coapplicantincome > 0.08 and credit_history > 0 then yes
+if credit_history > 0 then yes
+if credit_history > 0 and education <= 0 and self_employed > 0 then yes
+if credit_history > 0 and married > 0 and loanamount <= 0.56 then yes
+if education <= 0 and self_employed > 0 and loanamount <= 0.56 and married > 0 and credit_history > 0 then yes
+if credit_history > 0 and married > 0 then yes
+if credit_history > 0 and dependents > 0 and married <= 0 and applicantincome > 0.04 then yes
+if credit_history > 0 and dependents > 0 then yes
