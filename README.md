@@ -5,4 +5,4 @@ This is a rule-based system with learned rules using rule extraction method to e
 3. type 'chat' to start the conversations 
 
 Note: 
-The parser.pl is to format the text rule into the prolog. The rules are extracted from the REM method. We've changed the dataset into financial and trained the model, then extract the rules from the trained model. 
+The parser.pl is to format the text rule into the prolog. The rules are extracted from the REM method. We've changed the dataset into financial and trained the model, then extract the rules from the trained model. It has conflict rules in the raw rules, because machine learning model can't be 100% accurate. In the user evaluation, we removed the conflict rule by ourselves in order to avoid the quality of our explanation. 
