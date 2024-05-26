@@ -29,7 +29,7 @@ fact_description(self_employed):-
 fact_description(credit_history):-
     write('he has credit history').
 fact_description(applicantincome):-
-    write('his applicant income is 1853 pound').
+    write('his applicant income is 1853').
 fact_description(coapplicantincome):-
     write('his coapplicant income is 2870').
 fact_description(loanamount):-
