@@ -2,20 +2,20 @@ user_fact(1,married,1, initial_fact, []).
 user_fact(2,dependents,0, initial_fact, []).
 user_fact(3,education,0, initial_fact, []).
 user_fact(4,self_employed,1, initial_fact, []).
-user_fact(5,applicantincome,3000, initial_fact, []).
+user_fact(5,applicantincome,0.035, initial_fact, []).
 user_fact(6,coapplicantincome,0, initial_fact, []).
-user_fact(7,loanamount,66, initial_fact, []).
-user_fact(8,loan_amount_term,360, initial_fact, []).
+user_fact(7,loanamount,0.082, initial_fact, []).
+user_fact(8,loan_amount_term,1, initial_fact, []).
 user_fact(9,credit_history,1, initial_fact, []).
 
 node(1,married,1, initial_fact, []).
 node(2,dependents,0, initial_fact, []).
 node(3,education,0, initial_fact, []).
 node(4,self_employed,1, initial_fact, []).
-node(5,applicantincome,3000, initial_fact, []).
+node(5,applicantincome,0.035, initial_fact, []).
 node(6,coapplicantincome,0, initial_fact, []).
-node(7,loanamount,66, initial_fact, []).
-node(8,loan_amount_term,360, initial_fact, []).
+node(7,loanamount,0.082, initial_fact, []).
+node(8,loan_amount_term,1, initial_fact, []).
 node(9,credit_history,1, initial_fact, []).
 
 fact_description(married):-
