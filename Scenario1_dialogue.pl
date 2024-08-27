@@ -29,13 +29,13 @@ fact_description(self_employed):-
 fact_description(credit_history):-
     write('he has credit history').
 fact_description(applicantincome):-
-    write('his applicant income is 3000').
+    write('his applicant income is 3000 (0.035)').
 fact_description(coapplicantincome):-
     write('his coapplicant income is 0').
 fact_description(loanamount):-
-    write('his loan amount is 66').
+    write('his loan amount is 66 (0.028)').
 fact_description(loan_amount_term):-
-    write('his loan amount term is 360').
+    write('his loan amount term is 360 (1)').
 fact_description(result(yes)):-
     write('result is yes').
 fact_description(result(no)):-
