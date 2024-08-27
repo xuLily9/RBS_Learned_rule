@@ -2,20 +2,20 @@ user_fact(1,married,0, initial_fact, []).
 user_fact(2,dependents,0, initial_fact, []).
 user_fact(3,education,1, initial_fact, []).
 user_fact(4,self_employed,0, initial_fact, []).
-user_fact(5,applicantincome,1853, initial_fact, []).
-user_fact(6,coapplicantincome,2870, initial_fact, []).
-user_fact(7,loanamount,114, initial_fact, []).
-user_fact(8,loan_amount_term,360, initial_fact, []).
+user_fact(5,applicantincome,0.21, initial_fact, []).
+user_fact(6,coapplicantincome,0.084, initial_fact, []).
+user_fact(7,loanamount,0.15, initial_fact, []).
+user_fact(8,loan_amount_term,1, initial_fact, []).
 user_fact(9,credit_history,1, initial_fact, []).
 
 node(1,married,0, initial_fact, []).
 node(2,dependents,0, initial_fact, []).
 node(3,education,1, initial_fact, []).
 node(4,self_employed,0, initial_fact, []).
-node(5,applicantincome,1853, initial_fact, []).
-node(6,coapplicantincome,2870, initial_fact, []).
-node(7,loanamount,114, initial_fact, []).
-node(8,loan_amount_term,360, initial_fact, []).
+node(5,applicantincome,0.21, initial_fact, []).
+node(6,coapplicantincome,0.084, initial_fact, []).
+node(7,loanamount,0.15, initial_fact, []).
+node(8,loan_amount_term,1, initial_fact, []).
 node(9,credit_history,1, initial_fact, []).
 
 fact_description(married):-
@@ -29,13 +29,13 @@ fact_description(self_employed):-
 fact_description(credit_history):-
     write('he has credit history').
 fact_description(applicantincome):-
-    write('his applicant income is 1853').
+    write('his applicant income is 1853 (0.21)').
 fact_description(coapplicantincome):-
-    write('his coapplicant income is 2870').
+    write('his coapplicant income is 2870 (0.084)').
 fact_description(loanamount):-
-    write('his loan amount is 114').
+    write('his loan amount is 114 (0.15)').
 fact_description(loan_amount_term):-
-    write('his loan amount term is 360').
+    write('his loan amount term is 360 (1)').
 fact_description(result(yes)):-
     write('result is yes').
 fact_description(result(no)):-
